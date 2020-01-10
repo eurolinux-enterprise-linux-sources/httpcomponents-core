@@ -3,7 +3,7 @@
 Name:              httpcomponents-core
 Summary:           Set of low level Java HTTP transport components for HTTP services
 Version:           4.2.4
-Release:           5%{?dist}
+Release:           6%{?dist}
 Group:             Development/Libraries
 # The project is licensed under ASL 2.0, but it contains annotations
 # in the package org.apache.http.annotation which are derived
@@ -99,6 +99,9 @@ done
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.2.4-6
+- Mass rebuild 2013-12-27
+
 * Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 4.2.4-5
 - Rebuild to regenerate API documentation
 - Resolves: CVE-2013-1571
